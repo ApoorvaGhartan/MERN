@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <!-- <style>
+    h1{
+        background-color: yellow;
+        position: sticky;
+        top:10px;
+    }
+   
+       
+    </style> -->
+    <!-- <link rel="stylesheet" href="practice .css"> -->
+    <style>
+     *{
+        padding: 0;
+        margin:0;
+        box-sizing:border-box
+     }
+
+     .parent{
+        transition-property: width;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+
+        background-color: blueviolet;
+        color:white;
+        width:400px;
+        height:400px;
+        text-align: center;
+
+        h2{
+            height: black;
+            height: 75px;
+        }
+     }
+
+     @media (800px<=width<=1000px) {
+        .parent{
+            background-color: blue;
+        }
+        
+     }
+    </style>
+</head>
+<body>
+    <!-- <div class="parent">
+        <div class="child header">Header</div>
+        <div class="child Menu">Menu</div>
+        <div class="child">Main</div>
+        <div class="child">Right</div>
+        <div class="child footer">Footer</div>
+        
+    </div>
+
+    <div class="parent1">
+        <div class="child1 Green">Green</div>
+        <div class="child1 Yellow">Yellow</div>
+        <div class="child1 Red">Red</div>
+        <div class="child1 Blue">Blue</div>
+    </div> -->
+   
+    <!-- <section style="text-align: center; border:1px solid red;padding: 16px;">
+        <h1>This is a blog</h1>
+        <p style=" max-width: 100vw; margin: auto;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur fuga voluptate nobis minus aliquid sequi repellat corrupti error, sit, ad sed nemo esse obcaecati perferendis minima saepe vitae neque veritatis nulla ullam temporibus! Dolor voluptatem, soluta a magnam est ex placeat non consequatur rem suscipit, labore nisi quis, ad ducimus. Labore facere, laborum reprehenderit quibusdam, iste voluptatem incidunt officia placeat aliquam nobis amet, quaerat inventore laudantium. Optio, natus ullam. Magnam similique ab, accusamus asperiores placeat rerum non corrupti ut natus consequatur. Impedit natus sed accusamus provident perferendis, maiores nesciunt ab quidem, dolor perspiciatis officia porro ipsam minus repellat molestias excepturi?</p>
+    </section>
+    <section style="text-align: center; border:1px solid red;padding: 16px;">
+        <h1>This is a blog</h1>
+        <p style=" max-width: 100vw; margin: auto;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur fuga voluptate nobis minus aliquid sequi repellat corrupti error, sit, ad sed nemo esse obcaecati perferendis minima saepe vitae neque veritatis nulla ullam temporibus! Dolor voluptatem, soluta a magnam est ex placeat non consequatur rem suscipit, labore nisi quis, ad ducimus. Labore facere, laborum reprehenderit quibusdam, iste voluptatem incidunt officia placeat aliquam nobis amet, quaerat inventore laudantium. Optio, natus ullam. Magnam similique ab, accusamus asperiores placeat rerum non corrupti ut natus consequatur. Impedit natus sed accusamus provident perferendis, maiores nesciunt ab quidem, dolor perspiciatis officia porro ipsam minus repellat molestias excepturi?</p>
+    </section>
+    <section style="text-align: center; border:1px solid red;padding: 16px;">
+        <h1>This is a blog</h1>
+        <p style=" max-width: 100vw; margin: auto;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur fuga voluptate nobis minus aliquid sequi repellat corrupti error, sit, ad sed nemo esse obcaecati perferendis minima saepe vitae neque veritatis nulla ullam temporibus! Dolor voluptatem, soluta a magnam est ex placeat non consequatur rem suscipit, labore nisi quis, ad ducimus. Labore facere, laborum reprehenderit quibusdam, iste voluptatem incidunt officia placeat aliquam nobis amet, quaerat inventore laudantium. Optio, natus ullam. Magnam similique ab, accusamus asperiores placeat rerum non corrupti ut natus consequatur. Impedit natus sed accusamus provident perferendis, maiores nesciunt ab quidem, dolor perspiciatis officia porro ipsam minus repellat molestias excepturi?</p>
+    </section>
+    <section style="text-align: center; border:1px solid red;padding: 16px;">
+        <h1>This is a blog</h1>
+        <p style=" max-width: 100vw; margin: auto;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur fuga voluptate nobis minus aliquid sequi repellat corrupti error, sit, ad sed nemo esse obcaecati perferendis minima saepe vitae neque veritatis nulla ullam temporibus! Dolor voluptatem, soluta a magnam est ex placeat non consequatur rem suscipit, labore nisi quis, ad ducimus. Labore facere, laborum reprehenderit quibusdam, iste voluptatem incidunt officia placeat aliquam nobis amet, quaerat inventore laudantium. Optio, natus ullam. Magnam similique ab, accusamus asperiores placeat rerum non corrupti ut natus consequatur. Impedit natus sed accusamus provident perferendis, maiores nesciunt ab quidem, dolor perspiciatis officia porro ipsam minus repellat molestias excepturi?</p>
+    </section>
+    <section style="text-align: center; border:1px solid red;padding: 16px;">
+        <h1>This is a blog</h1>
+        <p style=" max-width: 100vw; margin: auto;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur fuga voluptate nobis minus aliquid sequi repellat corrupti error, sit, ad sed nemo esse obcaecati perferendis minima saepe vitae neque veritatis nulla ullam temporibus! Dolor voluptatem, soluta a magnam est ex placeat non consequatur rem suscipit, labore nisi quis, ad ducimus. Labore facere, laborum reprehenderit quibusdam, iste voluptatem incidunt officia placeat aliquam nobis amet, quaerat inventore laudantium. Optio, natus ullam. Magnam similique ab, accusamus asperiores placeat rerum non corrupti ut natus consequatur. Impedit natus sed accusamus provident perferendis, maiores nesciunt ab quidem, dolor perspiciatis officia porro ipsam minus repellat molestias excepturi?</p>
+    </section> -->
+    <div class="parent">
+        <h2>Heading</h2>
+        <p>This is my first blog</p>
+    </div>
+</body>
+</html>
