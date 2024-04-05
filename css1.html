@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        
+        .btn {
+            display: block;
+            padding: 16px;
+            border-radius: 8px;
+            border: none;
+            margin: 10px auto;
+            font-size: 16px;
+            width:120px;
+        }
+        .btn-small{
+          
+            font-size:10px;
+            width:100px; 
+        }
+    </style> -->
+
+    <style>
+        *{
+            margin-top: 20px;
+        }
+        /* *{
+            /* box-sizing: border-box; */
+         
+        /* body{height:100vh;
+        width:100vw;} */
+        /* padding: 10px 32px;} */
+    /* background-color: blueviolet;} */
+
+    /* .parent{
+        height:50vh;
+        width:50vw;
+      background-color: cornsilk;
+    }
+
+    .parent1 div ul:first-child{
+        background-color: aquamarine;
+    }
+    .parent1 div  ol{
+        background-color: chartreuse;
+    }
+    .child{
+        background-color: blue;
+        max-height: 120px;
+        width:40vw;
+        overflow: scroll;
+    }
+    
+   .parent1 div ul:last-child{
+      background-color: rgb(236, 217, 170);
+        li:nth-child(2){
+        background-color: blue;
+        color:white;
+        width: fit-content;
+        }
+    }
+    .parent1 div ul{
+        li:nth-of-type(2){
+            background-color: cadetblue;
+        }
+    } */
+    /* #item{
+        background-color: blue;
+        color:white;
+    } */
+    /* .parent1>ul{
+        background-color:darkolivegreen;
+    }
+    .parent1+ol{
+        background-color:palevioletred;
+    } */
+   
+   .parent{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+   }
+   .child{
+    background-color: bisque;
+    border:1px solid red;
+    flex-basis: 40px; 
+   
+   }
+   /* .search_box{
+    flex-grow: 3;
+     flex-shrink:1;
+   } */
+   .parent1{
+    display: flex;
+    justify-content: space-between;
+   }
+   .parent2{
+    justify-content: space-evenly;
+   }
+   .parent3{
+    justify-content: space-around;
+   }
+   .parent4{
+    justify-content: flex-end;
+   }
+   </style>
+</head>
+<body>
+    <!-- <button class="btn">Contact me</button>
+    <button class="btn btn-small">Contact me</button> -->
+    <!-- <div class="parent">
+        <div class="child">
+            <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+        </div>
+    </div> -->
+    <!-- <div class="parent1">
+        <div>
+            <ul>
+                <li>Mobile</li>
+                <li>Laptop</li>
+                <li>Table</li>
+                <li>Chair</li>
+            </ul>
+        
+            <ol>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Papaya</li>
+                <li>Guava</li>
+            </ol>
+    
+            <ul>
+                <li>Tea</li>
+                <li>Coffee</li>
+                <li>Juice</li>
+                <li>Water</li>
+            </ul>
+  
+        </div>
+        <ul>
+            <li>Mobile</li>
+            <li>Laptop</li>
+            <li>Table</li>
+            <li>Chair</li>
+        </ul>
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Papaya</li>
+            <li>Guava</li>
+        </ol>
+        <ul>
+            <li>Tea</li>
+            <li >Coffee</li>
+            <li>Juice</li>
+            <li>Water</li>
+        </ul>
+    </div> -->
+ <div class="parent">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child search_box">5</div>
+    <div class="child">6</div>
+    <div class="child">7</div>
+    <div class="child">8</div>
+ </div>  
+ <h1>space between</h1> 
+ <div class="parent parent1">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child search_box">5</div>
+    <div class="child">6</div>
+    <div class="child">7</div>
+    <div class="child">8</div>
+ </div>   
+ <h1>space evenly</h1> 
+ <div class="parent parent2">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child search_box">5</div>
+    <div class="child">6</div>
+    <div class="child">7</div>
+    <div class="child">8</div>
+ </div> 
+ <h1>space around</h1> 
+ <div class="parent parent3">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child search_box">5</div>
+    <div class="child">6</div>
+    <div class="child">7</div>
+    <div class="child">8</div>
+ </div> 
+ <h1>flex end</h1>
+ <div class="parent parent4">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child search_box">5</div>
+    <div class="child">6</div>
+    <div class="child">7</div>
+    <div class="child">8</div>
+ </div>   
+
+
+</body>
+</html>
